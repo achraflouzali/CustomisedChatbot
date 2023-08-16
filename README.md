@@ -14,7 +14,7 @@ To create the chatbot we need to communicate with the OpenAI api through a key.
 import openai
 openai.api_key = "Put your open ai key here"
 ```
-# 3) Build
+# 3) Build the chatbot
 To build an efficient chatbot, your text should be precise, structured and informative. Then you should make clear the tasks that the customised chatbot should do.
     
 ```python
@@ -29,3 +29,7 @@ Then to build a conversational chatbot, you should show the conversational histo
   conversation_history+=[user_question,chatbot_response]
 ```
 This application relies on an api coded with FastAPI and the page is coded with HTML/JavaScript. And the result is displayed like this 
+<p align="center">
+  <img src="chatbot.png" alt="Alt Text">
+</p>
+
